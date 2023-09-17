@@ -162,9 +162,3 @@ print("Accuracy:",round(accuracy_score(val_y, results_predicted),2))
 print("Precision:",round(precision_score(val_y, results_predicted, average='weighted'),2))
 print("Recall:",round(recall_score(val_y, results_predicted, average='weighted'),2))
 print("F1:",round(f1_score(val_y, results_predicted, average='weighted'),2))
-
-X= -2 * np.random.rand(100,2)
-X1 = 1 + 2 * np.random.rand(50,2)
-X[50:100, :] = X1
-
-X[ : , 1]
